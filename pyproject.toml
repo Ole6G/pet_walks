@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "walkings-test"
+version = "0.1.0"
+description = ""
+authors = ["Oleg <145393954+Ole6G@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+sqlalchemy = "^2.0.31"
+flask-sqlalchemy = "^3.1.1"
+flask-migrate = "^4.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
